@@ -2,7 +2,7 @@ package APCSA;
 
 import javax.swing.text.html.StyleSheet;
 
-public class Mod {
+public class Mods {
     public static void main(String[] args) {
         //Mod (%) is the remainder for a division.
         //Example 1
