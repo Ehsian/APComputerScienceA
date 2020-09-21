@@ -25,6 +25,6 @@ public class Printing {
         System.out.println("Hello "+"world!");//You can also add strings together.
         System.out.println("Hello there"+123+456);//Prints everything as string
         System.out.println(123+456+"Goodbye there");//Adds 123 and 456 first, treats as int not string
-        System.out.println(20%7);//% = Remainder in division (mod)
+        System.out.println(20%7);//% = Remainder in division (mod) (Check Mods.java)
     }
 }
