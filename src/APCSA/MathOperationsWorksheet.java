@@ -56,6 +56,7 @@ public class MathOperationsWorksheet {
         System.out.println((int)(Math.random()*10));
 
         //11)
+        //F = C/5*9+32
         int tempC = 28;
         System.out.println(tempC/5*9+32);
 
@@ -65,15 +66,18 @@ public class MathOperationsWorksheet {
         System.out.println(seconds/86400 + " days");
 
         //13)
+        //1.609km in a mile
         double miles = 500;
         System.out.println(miles*1.609);
 
         //14)
+        //2.54cm in an inch
         double feet = 5;
         double inches = 3;
         System.out.println((feet*12+inches)*2.54);
 
         //15)
+        //2.205 pounds in a kilogram
         min = 100;
         max = 150;
         range = max - min + 1;
