@@ -79,5 +79,25 @@ public class DataTypes {
         //vs
         arthur = (int)ben/(int)michael;
         //must choose between truncating after operation or truncating both nums before operation
+
+        //--------------------------------------------------
+        double billy = 1.1;
+        int aaron = 1;
+        int arthury = 2;
+
+        billy = arthury;
+        billy = aaron/arthury;
+        System.out.println(billy); //0.0
+
+        billy = (double)aaron/arthury; //0.5
+        System.out.println(billy);
+
+        billy = aaron/(double)arthury; //0.5 because billy is double
+        System.out.println(billy);
+
+        billy = (double)(aaron/arthury); //0.0
+        System.out.println(billy);
+
+        //One of these is on the quiz
     }
 }
