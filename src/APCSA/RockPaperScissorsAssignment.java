@@ -2,7 +2,7 @@ package APCSA;
 import java.util.Scanner;
 import java.util.Random;
 
-public class RockPaperScissors {
+public class RockPaperScissorsAssignment {
     public static void main(String[] args) {
         Random rand = new Random();
         String[] choices = {"Rock", "Paper", "Scissors"};
@@ -14,6 +14,8 @@ public class RockPaperScissors {
 
         System.out.print("Enter your name: ");
         String name = scan.next();
+        //System.out.print("Enter how many games you would like to play")
+        //int games = scan.nextInt();
         while(true){
             int computerchoice = rand.nextInt(choices.length);
             System.out.print("(R)ock, (P)aper, or (S)cissors? ");
@@ -44,6 +46,8 @@ public class RockPaperScissors {
                 System.out.println("You lost!");
                 losses++;
             }
+            //games--;
+            //if(games<=0){again = "n"}
             System.out.print("Play again? (y/n): ");
             String again = scan.next();
             if(again.contains("y")){
