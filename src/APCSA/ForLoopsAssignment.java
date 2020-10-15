@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ForLoopsAssignment {
     public static void main(String[] args) {
         //1) Print out all numbers from 100 down to 1 that are odd.
-        for(int i=100;i>0;i--){
+        for(int i=99;i>0;i-=2){
             System.out.println(i);
         }
         //2) Print out all numbers from 1 to 100 that are divisible by 12.
