@@ -32,7 +32,7 @@ public class GreedyPigs {
                             continue;
                         }
                         else{
-                            System.out.println("Player "+(i+1)+"rolled double 6's, therefore their score was reset.");
+                            System.out.println("Player "+(i+1)+" rolled double 6's, therefore their score was reset.");
                             scores[i] = 0;
                             cont = false;
                             continue;
