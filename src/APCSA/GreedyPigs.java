@@ -44,7 +44,7 @@ public class GreedyPigs {
                             continue;
                         }
                         else{
-                            System.out.println("Player "+(i+1)+"a 6, therefore they don't gain anything this round.");
+                            System.out.println("Player "+(i+1)+" rolled a 6, therefore they don't gain anything this round.");
                             temp = 0;
                             cont = false;
                             continue;
