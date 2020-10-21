@@ -58,6 +58,9 @@ public class GreedyPigs {
                             gameactive=false;
                             break;
                         }
+                        else{
+                            System.out.println((100-(scores[i]+temp))+" needed to win.");
+                        }
                     }
                     System.out.print("Player "+(i+1)+", Roll Again? (y/n)");
                     String again = scan.next();
