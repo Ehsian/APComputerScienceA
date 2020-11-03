@@ -5,8 +5,8 @@ import java.util.Random;
 
 public class Hangman {
     public static void main(String[] args) {
-        ArrayList<String> guessed = new ArrayList<String>();
-        ArrayList<String> words = new ArrayList<String>();
+        ArrayList<String> guessed = new ArrayList<>();
+        ArrayList<String> words = new ArrayList<>();
         words.add("hello");words.add("mister");words.add("lu");words.add("please");words.add("give");words.add("high");words.add("mark");
         int lives;
         boolean win;
@@ -27,7 +27,7 @@ public class Hangman {
                 System.out.println("Input a word (Guesser look away!)");
                 word = scan.next();
                 words.add(word);
-                System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHiding word... (Do not scroll up)!\n");
+                System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHiding word... (Do not scroll up)!\n");
             }
             else if(start.toLowerCase().charAt(0)=='q'){
                 System.out.println("Quitting...");
