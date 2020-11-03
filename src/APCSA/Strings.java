@@ -39,6 +39,7 @@ public class Strings {
         System.out.println(str8.indexOf("h")); //returns 3
         String str9 = "Justintintin";
         System.out.println(str9.indexOf("tin")); //returns 3
+        System.out.println(str9.lastIndexOf("tin")); //returns 9
         //Returns -1 if not in the string
         String str10 = "Zoey";
         System.out.println(str10.indexOf("a")); //returns -1
