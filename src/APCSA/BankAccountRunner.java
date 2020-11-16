@@ -9,6 +9,7 @@ public class BankAccountRunner {
         BankAccount Ben = new BankAccount();
         BankAccount Aaron = new BankAccount();
         BankAccount Zoey = new BankAccount();
+        BankAccount Rose = new BankAccount(2.20);
         //Ben, Aaron, Zoey are objects (Instances of BankAccount)
         Aaron.deposit(25.50);
         System.out.println("Aaron's balance is: $"+Aaron.getBalance());
