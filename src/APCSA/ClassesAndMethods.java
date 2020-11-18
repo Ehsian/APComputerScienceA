@@ -1,12 +1,13 @@
 package APCSA;
 
-public class BankAccount {
+public class ClassesAndMethods {
     //Check BankAccountRunner class to find syntax and usage
     public double balance;
+    public String accountName;
 
-    public BankAccount(){}
+    public ClassesAndMethods(){}
     //Constructors allow code to be written immediately when an object is created
-    public BankAccount(double initialDeposit){
+    public ClassesAndMethods(double initialDeposit){
         balance = initialDeposit;
     }
 
@@ -16,6 +17,10 @@ public class BankAccount {
     //A public method is available to all classes
     public void deposit(double amount){
         balance += amount;
+    }
+
+    public void setName(String newName){
+        accountName = newName;
     }
 
     public double getBalance(){
@@ -47,5 +52,11 @@ public class BankAccount {
     }
     public void method2(){
         //System.out.println(x); <-- Error results because the scope of x is within method1
+    }
+
+    //A special method allows you to override printing an object.
+    //The method is toString and must be precisely as follows.
+    public String toString(){
+        return (accountName+" has "+balance+" dollars.");
     }
 }
