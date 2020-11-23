@@ -1,5 +1,7 @@
 package APCSA;
 
+import java.awt.*;
+
 public class ClassRunner {
     public static void main(String[] args) {
         //BankAccount is a class
@@ -30,5 +32,12 @@ public class ClassRunner {
         StaticMethods problem3 = new StaticMethods();
 
         System.out.println("Number of problems is "+StaticMethods.getNum());
+
+        //------------------------------------------------ShapeCalcAssignment Testing
+        ShapeCalcAssignment.circleInfo(3);
+        ShapeCalcAssignment.cylinderInfo(3,5);
+        ShapeCalcAssignment shape1 = new ShapeCalcAssignment("Triangle");
+        ShapeCalcAssignment shape2 = new ShapeCalcAssignment("Square");
+        System.out.println("Times used: "+ShapeCalcAssignment.getNumTimesUsed());
     }
 }
