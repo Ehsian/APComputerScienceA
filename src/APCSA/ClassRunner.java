@@ -13,6 +13,7 @@ public class ClassRunner {
         ClassesAndMethods Zoey = new ClassesAndMethods();
         ClassesAndMethods Rose = new ClassesAndMethods(2.20);
 
+
         Aaron.setName("Ehron");
         Zoey.setName("Zoe");
         Rose.setName("Rosie");
@@ -33,6 +34,12 @@ public class ClassRunner {
 
         System.out.println("Number of problems is "+StaticMethods.getNum());
 
+        //------------------------------------------------Inheritance Testing
+        Inheritance Arthur = new Inheritance();
+        Arthur.deposit(50); //This works because deposit() is a public method
+        //Arthur.programmer() does not work because programmer() is a private method
+        Arthur.calcInterest(1,1);
+        Rose.calcInterest(1,1);
         //------------------------------------------------ShapeCalcAssignment Testing
         ShapeCalcAssignment.circleInfo(3);
         ShapeCalcAssignment.cylinderInfo(3,5);
