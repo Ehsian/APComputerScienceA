@@ -1,7 +1,7 @@
 package APCSA;
 
 public class ClassesAndMethods {
-    //Check BankAccountRunner class to find syntax and usage
+    //Related classes: Inheritance, ClassRunner, StaticMethods
     public double balance;
     public String accountName;
 
@@ -58,5 +58,9 @@ public class ClassesAndMethods {
     //The method is toString and must be precisely as follows.
     public String toString(){
         return (accountName+" has "+balance+" dollars.");
+    }
+
+    private void programmer(){ //Not inherited by "Inheritance" class
+        System.out.println("Ben Jia");
     }
 }
