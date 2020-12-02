@@ -1,4 +1,4 @@
-package APCSA;
+package APCSA.Assignments;
 
 public class CSStudentsAssignment {
     public String firstName;

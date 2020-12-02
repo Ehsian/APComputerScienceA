@@ -1,4 +1,4 @@
-package APCSA;
+package APCSA.Assignments;
 
 public class ShapeCalcAssignment {
     public static int numTimesUsed;

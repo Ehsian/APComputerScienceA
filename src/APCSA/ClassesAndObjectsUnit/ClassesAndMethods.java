@@ -1,4 +1,4 @@
-package APCSA;
+package APCSA.ClassesAndObjectsUnit;
 
 public class ClassesAndMethods {
     //Related classes: Inheritance, ClassRunner, StaticMethods

@@ -1,4 +1,4 @@
-package APCSA;
+package APCSA.Assignments;
 
 public class NestedForLoopsAssignment {
     public static void main(String[] args) {

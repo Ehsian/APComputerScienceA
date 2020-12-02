@@ -1,4 +1,4 @@
-package APCSA;
+package APCSA.ClassesAndObjectsUnit;
 
 public class Inheritance extends ClassesAndMethods {
     //Inheritance class inherits all the public methods of the ClassesAndMethods class
@@ -25,4 +25,8 @@ public class Inheritance extends ClassesAndMethods {
         //ClassesAndMethods -> Inheritance -> SuperInheritance
     //The very top class is Object
     //All classes inherit from Object
+
+    public void specialSavings(){
+        //Method for example purposes (Check ClassRunner)
+    }
 }

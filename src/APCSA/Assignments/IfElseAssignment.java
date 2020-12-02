@@ -1,4 +1,4 @@
-package APCSA;
+package APCSA.Assignments;
 
 import java.util.Scanner;
 
