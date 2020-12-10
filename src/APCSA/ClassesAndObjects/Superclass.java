@@ -1,4 +1,4 @@
-package APCSA.ClassesAndObjectsUnit;
+package APCSA.ClassesAndObjects;
 
 public class Superclass {
     public Superclass(){

@@ -1,4 +1,4 @@
-package APCSA.ClassesAndObjectsUnit;
+package APCSA.ClassesAndObjects;
 
 import APCSA.Assignments.ShapeCalcAssignment;
 

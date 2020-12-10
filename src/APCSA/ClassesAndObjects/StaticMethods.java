@@ -1,4 +1,4 @@
-package APCSA.ClassesAndObjectsUnit;
+package APCSA.ClassesAndObjects;
 
 public class StaticMethods {
     //A static method allows you to run a method without creating an object first

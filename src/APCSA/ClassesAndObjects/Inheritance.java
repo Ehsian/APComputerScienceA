@@ -1,4 +1,4 @@
-package APCSA.ClassesAndObjectsUnit;
+package APCSA.ClassesAndObjects;
 
 public class Inheritance extends ClassesAndMethods {
     //Inheritance class inherits all the public methods of the ClassesAndMethods class
