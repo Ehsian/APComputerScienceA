@@ -5,7 +5,7 @@ public interface GamePlayer {
     //All methods are declared abstract by default
     //Abstract methods are methods without code
     //Also called "stub methods"
-    //Be default, all methods are public
+    //By default, all methods are public
     //Interfaces can not be instantiated
     //Used as blueprints
     public void move(double speed);
