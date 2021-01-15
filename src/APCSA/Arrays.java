@@ -1,5 +1,4 @@
 package APCSA;
-
 public class Arrays {
     public static void main(String[] args) {
         //An array is a data structure allowing you to hold multiple "variables" at one time
@@ -97,5 +96,15 @@ public class Arrays {
                 System.out.println(arry[i+1]+" is the number, "+(i+1)+" is the index");
             }
         }
+
+        //--------------------------------------------------------------------------------
+        ByValue bill = new ByValue();
+        int[]cole = new int[4];
+        cole[0] = 4;
+        bill.changer(cole);
+        System.out.println(cole[0]);
+        //Unlike other types such as String, int, etc, arrays pass the references/indexes into
+        //ByValue, so the values can get changed.
+        //This applies to most objects as well.
     }
 }
