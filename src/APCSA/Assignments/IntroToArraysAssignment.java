@@ -203,7 +203,7 @@ public class IntroToArraysAssignment {
         //sorting first.
         int[]q17 = {1,1,3,3,5,1,7,2,8,5,9};
         Integer[]q17temp = new Integer[q17.length];
-        boolean hasnumber = false;
+        boolean hasnumber;
         int countnulls = 0;
         for(int i=0;i<q17.length;i++){
             hasnumber = false;
