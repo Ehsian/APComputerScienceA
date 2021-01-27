@@ -1,6 +1,4 @@
 package APCSA.Assignments;
-import javax.print.DocFlavor;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 public class TwoDimensionalArrays {
     public static void main(String[] args) {
