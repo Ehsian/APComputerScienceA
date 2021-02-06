@@ -1,5 +1,5 @@
 package APCSA;
-import java.lang.reflect.Array;
+import java.util.*; //Imports everything from java.util (unnecessary)
 import java.util.ArrayList; //Required
 public class ArrayLists {
     public static void main(String[] args) {
@@ -47,9 +47,31 @@ public class ArrayLists {
             }
         }
 
-        //Useful Wrapper Classes: Integer (int), Double (double), Character (char), etc.
+        //-----------------------------------------------------------------
 
-        //ArrayList Practice - Assignment 1
+        //A common way to declare an ArrayList is using the List interface
+        List<String>whateverList = new ArrayList<>();
+
+        //You cannot use primitive data in an ArrayList
+        //ArrayList<int> intList = new ArrayList<>(); <- Does not work
+
+        //ArrayLists can only hold objects, hence the use of Wrapper classes
+        ArrayList<Integer>intList = new ArrayList<>();
+        Integer num1 = 32;
+        Integer num2 = 23;
+        Integer num3 = 1;
+        intList.add(num1);
+        intList.add(num2);
+        intList.add(num3);
+
+        for(int i : intList){
+            System.out.print(i + " ");
+        }
+        System.out.println();
+
+        //------------------------------------------------------------------
+
+        //ArrayList Assignment - Practice #1
         ArrayList<String>animals = new ArrayList<>();
         animals.add("cat");
         animals.add("dog");
